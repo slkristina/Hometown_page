@@ -12,12 +12,17 @@ body {
     margin: 0;
     text-align: center;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    width: 720px;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -25,29 +30,46 @@ img {
 }
 
 #hero-section-container {
+    width: 100%;
     height: 300px;
-    background: url(./images/torshov.jpg);
+    background: url(./images/hometown5.jpeg);
     background-size: 100%;
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 
 
 #hero-section-container h1 {
-    background-color: #457B9D;
-    color: white;
-}
-#hero-section-container h2 {
     background-color: #1D3557;
     color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    
+}
+
+
+#hero-section-container h2 {
+    background-color: #457B9D;
+    color: white;
+    border-radius: 5%;
+    padding: 5px 20px 5px 20px;
+    margin-right: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+   
 }
 
 #hero-container {
     display: flex;
     width: 50%;
     flex-direction: column;
+    border-radius: 20%;
    
 
 }
@@ -75,35 +97,51 @@ img {
 
 .activity img {
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
     
 }
 
 #guide-section-container {
     display: flex;
-    justify-content: center;
-    
-
+    justify-content:center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#guide-card-container{
+    
+#guide-card-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     width: 400px;
     background-color: #A8DADC;
-    border-bottom: 10px solid #1D3557;
+    border-bottom: 5cap solid #1D3557;
     margin: 50px 0 50px 0;
-    padding: 15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 1opx;
-    border-top-left-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #1D3557;
+
+}
+
+.italic {
+    font-style: italic; 
+    font: 16px;
 
 }
 
 #guide-photo {
-    width: 130px;
-    border-radius: 5%;
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;
+
+}
+
+h3 {
+    font: 24px;
+}
+
+h4 {
+    font: 16px;
 }
 
